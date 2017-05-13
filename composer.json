@@ -1,0 +1,25 @@
+{
+    "name": "jesusfarfan/shopback-calculator",
+    "description": "Programming exercise",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jesus Farfan",
+            "email": "jesu.farfan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "ShopBack\\": "src/ShopBack/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShopBack\\": "tests/ShopBack/"
+        }
+    }
+}
