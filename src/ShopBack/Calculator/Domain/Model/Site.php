@@ -94,4 +94,14 @@ class Site
     {
         return $this->website;
     }
+
+    /**
+     * Gets the value of siteId.
+     *
+     * @return mixed
+     */
+    public function getSiteId()
+    {
+        return $this->siteId;
+    }
 }

@@ -28,4 +28,19 @@ class SiteId
 	{
 		return uniqid('site.id.', TRUE);
 	}
+
+    /**
+     * Gets the value of id.
+     *
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    public function __toString()
+    {
+    	return $this->id;
+    }
 }
