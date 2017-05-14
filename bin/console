@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$action = null;
+$arguments = [];
+unset($argv[0]);
+foreach ($argv as $key => $value) {
+	if ($key == 1) {
+		$action = $value;
+		continue;
+	}
+	$arguments[] = $value;
+}
+
+$config = require_once __DIR__ . '/../config/sites.php';
+
+$app = new ShopBack\Calculator\Infrastructure\Ui\Console\Application();
+$app->bootstrap($config);
+$app->execute($action, $arguments);
