@@ -21,5 +21,13 @@
         "psr-4": {
             "ShopBack\\": "tests/ShopBack/"
         }
+    },
+    "config": {
+        "platform": {
+            "php": "5.6.30"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
     }
 }

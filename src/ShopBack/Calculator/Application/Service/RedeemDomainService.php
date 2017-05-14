@@ -30,9 +30,9 @@ class RedeemDomainService
 	 * @param  string $domain Domain
 	 * @return string
 	 */
-	public function execute($domain)
+	public function execute($domain = '')
 	{
-		if (! is_string($domain)) {
+		if (empty($domain)) {
 			throw new  \InvalidArgumentException('Domain parameter must be string.');
 		}
 

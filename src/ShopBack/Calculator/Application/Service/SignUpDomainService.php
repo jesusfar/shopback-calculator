@@ -30,10 +30,10 @@ class SignUpDomainService
 	 * @param  string $domain Domain
 	 * @return string
 	 */
-	public function execute($domain)
+	public function execute($domain = '')
 	{
-		if (! is_string($domain)) {
-			throw new  \InvalidArgumentException('Domain parameter must be string.');
+		if (empty($domain)) {
+			throw new  \InvalidArgumentException('Domain parameter must be string and not empty');
 		}
 
 		$site = $this->siteRepository->findByDomain($domain);

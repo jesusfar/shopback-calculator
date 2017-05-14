@@ -71,4 +71,14 @@ class Application
 
 		echo $response . PHP_EOL;
 	}
+
+    /**
+     * Gets the value of container.
+     *
+     * @return mixed
+     */
+    public function getContainer()
+    {
+        return $this->container;
+    }
 }
