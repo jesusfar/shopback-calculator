@@ -5,8 +5,8 @@ namespace ShopBack\Calculator\Domain\Model;
 /**
 * Currency
 *
-* @category  CategoryName
-* @package   PackageName
+* @category  ObjectValue
+* @package   ShopBack\Calculator\Domain\Model
 * @author    Jesus Farfan <jesus.farfan@nidarbox.com>
 * @copyright Jesus Farfan
 * @license   Propietary
@@ -41,7 +41,7 @@ class Currency
 	 */
 	public function __construct($isoCode)
 	{
-		$this->isoCode = $this->setIsoCode($isoCode);
+		$this->setIsoCode($isoCode);
 	}
 
     /**

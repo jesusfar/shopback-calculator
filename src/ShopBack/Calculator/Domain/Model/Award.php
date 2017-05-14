@@ -29,7 +29,7 @@ class Award
 	public function __construct($amount, $currency)
 	{
 		$this->amount = $amount;
-		$this->currency =$this->setCurrency($currency);
+		$this->setCurrency($currency);
 	}
 
 	/**
@@ -38,8 +38,10 @@ class Award
 	private function setCurrency($currency)
 	{
 		if (! $currency instanceof Currency) {
-			throw new \InvalidArgumentException();
+			throw new \InvalidArgumentException('Argument should be instance of Currency');
 		}
+
+		$this->currency = $currency;
 	}
 
     /**
