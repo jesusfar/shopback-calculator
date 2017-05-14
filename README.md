@@ -26,8 +26,9 @@ $ ./shopback-calculator redeem <domain>
 
 ```bash
  $ composer install
- ```
+```
 2. Run unit test
+
 ```bash
  $ ./vendor/bin/phpunit
 ```
