@@ -38,5 +38,11 @@ return [
 			'award_amount' => '5',
 			'currency' => 'USD'
 		],
+	],
+	'threshold_awards' => [
+		'50' => '20',
+		'20' => '15',
+		'10' => '10',
+		'0'  => '5'
 	]
 ];

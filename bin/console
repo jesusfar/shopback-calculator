@@ -14,7 +14,7 @@ foreach ($argv as $key => $value) {
 	$arguments[] = $value;
 }
 
-$config = require_once __DIR__ . '/../config/sites.php';
+$config = require_once __DIR__ . '/../config/config.php';
 
 $app = new ShopBack\Calculator\Infrastructure\Ui\Console\Application();
 $app->bootstrap($config);

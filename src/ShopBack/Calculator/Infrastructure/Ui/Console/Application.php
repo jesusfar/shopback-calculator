@@ -40,7 +40,7 @@ class Application
 		$this->container['site_repository'] = $siteRepository;
 		$this->container['signup_domain_service'] = new SignUpDomainService($siteRepository);
 		$this->container['redeem_domain_service'] = new RedeemDomainService($siteRepository);
-		$this->container['spend_calculator_service'] = new SpendCalculatorService();
+		$this->container['spend_calculator_service'] = new SpendCalculatorService($config['threshold_awards']);
 	}
 
 	/**
