@@ -8,7 +8,7 @@ namespace ShopBack\Calculator\Domain\Model;
 * @package   ShopBack\Calculator\Domain\Model
 * @author    Jesus Farfan <jesus.farfan@nidarbox.com>
 * @copyright Jesus Farfan
-* @license   Propietary
+* @license   MIT
 * @link      https://nidarbox.com
 */
 class SiteDoesNotExistException extends \Exception

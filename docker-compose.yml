@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    shopback-calculator:
+        image: php:5.6.30-cli
+        container_name: shopback-calculator
+        volumes:
+            - ./:/app
+        command: bash -c "tail -f /dev/null"
+        working_dir: /app

@@ -17,7 +17,7 @@ use ShopBack\Calculator\Infrastructure\Persistence\InMemory\Calculator\InMemoryS
 * @package   PackageName
 * @author    Jesus Farfan <jesus.farfan@nidarbox.com>
 * @copyright Jesus Farfan
-* @license   Propietary
+* @license   MIT
 * @link      https://nidarbox.com
 */
 class Application

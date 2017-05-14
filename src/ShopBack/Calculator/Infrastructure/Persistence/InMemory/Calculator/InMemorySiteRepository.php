@@ -13,7 +13,7 @@ use ShopBack\Calculator\Domain\Model\SiteRepository;
 * @package   ShopBack\Calculator\Infrastructure\Persistence\InMemory\Calculator
 * @author    Jesus Farfan <jesus.farfan@nidarbox.com>
 * @copyright Jesus Farfan
-* @license   Propietary
+* @license   MIT
 * @link      https://nidarbox.com
 */
 class InMemorySiteRepository implements SiteRepository

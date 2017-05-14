@@ -16,7 +16,7 @@ use ShopBack\Calculator\Infrastructure\Persistence\InMemory\Calculator\InMemoryS
 * @package   ShopBack\Calculator\Application\Service
 * @author    Jesus Farfan <jesus.farfan@nidarbox.com>
 * @copyright Jesus Farfan
-* @license   Propietary
+* @license   MIT
 * @link      https://nidarbox.com
 */
 class SignUpDomainServiceTest extends TestCase

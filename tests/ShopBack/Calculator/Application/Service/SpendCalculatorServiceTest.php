@@ -12,7 +12,7 @@ use ShopBack\Calculator\Application\Service\SpendCalculatorService;
 * @package   ShopBack\Calculator\Application\Service
 * @author    Jesus Farfan <jesus.farfan@nidarbox.com>
 * @copyright Jesus Farfan
-* @license   Propietary
+* @license   MIT
 * @link      https://nidarbox.com
 */
 class SpendCalculatorServiceTest extends TestCase

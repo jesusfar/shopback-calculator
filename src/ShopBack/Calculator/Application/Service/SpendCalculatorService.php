@@ -11,7 +11,7 @@ use ShopBack\Calculator\Domain\Model\SiteDoesNotExistException;
 * @package   ShopBack\Calculator\Application\Service
 * @author    Jesus Farfan <jesus.farfan@nidarbox.com>
 * @copyright Jesus Farfan
-* @license   Propietary
+* @license   MIT
 * @link      https://nidarbox.com
 */
 class SpendCalculatorService
